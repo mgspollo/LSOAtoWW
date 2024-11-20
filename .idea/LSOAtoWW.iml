@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/data/all_catchments" />
+      <excludeFolder url="file://$MODULE_DIR$/data/lsoa" />
+      <excludeFolder url="file://$MODULE_DIR$/data/lsoa_to_ww" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/DCWW Catchments" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/DOAs and WWTWs" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/EIR Wastewater Catchments" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/SDAC" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/STW Catchments" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/UUDrainageAreas040122" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/WWCATCHPOLY 23 04 2021" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/WxW WRC Catchments Dec2021" />
+      <excludeFolder url="file://$MODULE_DIR$/data/raw_ww_catchments/swsdrain region" />
+      <excludeFolder url="file://$MODULE_DIR$/data/uprn" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
