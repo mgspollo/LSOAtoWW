@@ -17,9 +17,9 @@ catchments = (
 )
 print("Successfully loaded all catchments")
 
-lsoas = gpd.read_file("../data/lsoa/LSOA_2021_EW_BFC_V10.shp").set_index("LSOA21CD")[
-    ["geometry"]
-]
+lsoas = gpd.read_file("..data/lsoa/england/LSOA_2021_EW_BFC_V10.shp").set_index(
+    "LSOA21CD"
+)[["geometry"]]
 print("Successfully read LSOAs")
 
 uprns_df = pd.read_csv(

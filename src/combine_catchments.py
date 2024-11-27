@@ -9,6 +9,7 @@ gdf_sww = gpd.read_file(
 gdf_sww.set_crs(epsg=27700, inplace=True)
 gdf_sww = gdf_sww.to_crs(4326)
 gdf_sww = gdf_sww[["CATCHMENT1", "geometry"]].rename(columns={"CATCHMENT1": "name"})
+gdf_sww["company"] = "northern_ireland_water"
 
 gdf_ni = gpd.read_file(
     "../data/raw_ww_catchments/NorthernIrelandWater/WWTW Upstream Catchment Areas.shp"
@@ -16,6 +17,7 @@ gdf_ni = gpd.read_file(
 # gdf_ni.set_crs(epsg=27700, inplace=True)
 gdf_ni = gdf_ni.to_crs(4326)
 gdf_ni = gdf_ni[["NAME", "geometry"]].rename(columns={"NAME": "name"})
+gdf_ni["company"] = "northern_ireland_water"
 
 
 catchments = gpd.read_file(
